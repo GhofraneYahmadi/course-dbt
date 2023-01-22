@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fact_product_views
+    description: "Fact table for product views"
+    columns:
+      - name: product_id
+        description: "Primary Key"
+        tests:
+          - unique
+          - not_null

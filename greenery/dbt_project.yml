@@ -37,3 +37,15 @@ models:
     staging:
       postgres:
         +materialized: table
+
+    intermediate:
+        +materialized: table
+
+    core:
+        +materialized: table
+
+    marketing:
+        +materialized: table
+      
+    product:
+        +materialized: table
